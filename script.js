@@ -2,7 +2,7 @@
 const TMDB_FN = '/.netlify/functions/tmdb';
 
 const genres = [
-  { id: 878, name: 'AI' },
+  { id: 878, name: 'All' },
   { id: 528, name: 'Food' },
   { id: 18, name: 'Drama' },
   { id: 27, name: 'Horror' },
@@ -191,5 +191,6 @@ window.handleLoginSubmit = function() {
   hideModal();
   alert(`Signed in (UI-only)\nEmail: ${email}`);
 };
+
 
 document.addEventListener('DOMContentLoaded', init);
